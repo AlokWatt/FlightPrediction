@@ -224,7 +224,7 @@ trained_prediction_pipelines = get_prediction_models_dict(
 
 # Try to load and display the master image
 try:
-    st.image("flightPrediction.jpg", width=600) # Set width to control height -- flight_price.jpg -- flightPrediction.jpg
+    st.image("flightPrediction.jpg", width=800) # Set width to control height -- flight_price.jpg -- flightPrediction.jpg
 except Exception as e:
     st.warning(f"Could not load header image 'flightPrediction.jpg'. Make sure it's in the same folder as the script. Error: {e}")
 
@@ -515,3 +515,4 @@ elif app_mode == "Predict Price":
 
 
 # --- End of Script ---
+
